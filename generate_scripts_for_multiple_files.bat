@@ -1,4 +1,4 @@
-<# : Bryce's core roaster.bat
+<# : generate_scripts_for_multiple_files.bat
 @ECHO OFF
 color A
 echo Welcome to Bryce's core roaster

@@ -1,4 +1,4 @@
-<# : Bryce's core roaster.bat
+<# : distributed_image_sequence.bat
 @ECHO OFF
 color A
 echo Welcome to Bryce's core roaster

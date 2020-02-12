@@ -1,6 +1,4 @@
-::https://ss64.com/nt/syntax-args.html
-
-<# : Bryce's core roaster.bat
+<# : multiple_file_output.bat
 @ECHO ON
 color A
 echo Welcome to Bryce's core roaster
