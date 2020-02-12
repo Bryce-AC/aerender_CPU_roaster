@@ -23,8 +23,8 @@ if not exist render_scripts mkdir render_scripts
 	set /a instances=instances-1
 	set /A start=%instances%*%segment_length%
 	set /A end=%start%+%segment_length%-1
-	echo echo Start "Core roaster #%instances%" "C:\Program Files\Adobe\Adobe After Effects 2020\Support Files\aerender.exe" -project "%file_path%" -s %start% -e %end% -comp "render" -rqindex 1 -sound ON -output "%~d0%~p0render_output\out%instances%.mov" > %~d0%~p0render_scripts\render_%instances%.bat
-	echo echo pause >> %~d0%~p0render_scripts\render_%instances%.bat
+	echo "C:\Program Files\Adobe\Adobe After Effects 2020\Support Files\aerender.exe" -project "%file_path%" -s %start% -e %end% -comp "render" -rqindex 1 -sound ON -output "%~d0%~p0render_output\out%instances%.mov" > %~d0%~p0render_scripts\render_%instances%.bat
+	echo pause >> %~d0%~p0render_scripts\render_%instances%.bat
 	goto loop
 :exitloop
 
