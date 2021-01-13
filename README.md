@@ -1,5 +1,7 @@
-# aerender_CPU_roaster
-Some cobbled together batch scripting to run multiple instances of aerender
+# 🔥 aerender_CPU_roaster 🔥
+Some cobbled together batch scripting to run multiple instances of aerender since Adobe don't want to fully utilise system resources  
+
+(╯°□°)╯︵ ┻━┻
 
 ## Instructions
 1. Make sure there's a composition in the AE project called `render` which has been added to the render queue with the settings you desire  
