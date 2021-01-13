@@ -11,5 +11,4 @@ I have included the .aom file template thing with the settings I typically use (
 5. Now you can stitch the files in `core_roaster_render_output` together in your editor of choice
 6. Profit
 
-## Notes 
-modifier ref: https://ss64.com/nt/syntax-args.html
+┬─┬ ノ( ゜-゜ノ)
